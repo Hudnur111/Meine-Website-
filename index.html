@@ -5,7 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Meine Professionelle Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Deine CSS-Stile hier */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        /* Weitere CSS-Regeln hier */
+
+    </style>
 </head>
 <body>
     <header>
@@ -20,53 +67,7 @@
         </nav>
     </header>
 
-    <section id="startseite">
-        <div class="content">
-            <h1>Willkommen auf meiner Website</h1>
-            <p>Hier findest du Informationen über mich, meine Tätigkeiten und wie du mich kontaktieren kannst.</p>
-        </div>
-    </section>
+    <!-- Der restliche HTML-Code folgt hier -->
 
-    <section id="uebermich">
-        <div class="content">
-            <h2>Über mich</h2>
-            <p>Ich bin ein engagierter und kreativer Profi mit umfassender Erfahrung in verschiedenen Bereichen. Meine Leidenschaft ist es, stets Neues zu lernen und mich weiterzuentwickeln.</p>
-        </div>
-    </section>
-
-    <section id="kontakt">
-        <div class="content">
-            <h2>Kontaktdaten</h2>
-            <p>Du kannst mich unter folgenden Kanälen erreichen:</p>
-            <ul>
-                <li>Email: beispiel@mail.de</li>
-                <li>Telefon: +49 123 456 789</li>
-                <li>LinkedIn: linkedin.com/in/beispiel</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="taetigkeiten">
-        <div class="content">
-            <h2>Tätigkeiten</h2>
-            <p>Ich bin in verschiedenen Bereichen tätig, darunter:</p>
-            <ul>
-                <li>Webentwicklung</li>
-                <li>Grafikdesign</li>
-                <li>Beratung und Coaching</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="sonstiges">
-        <div class="content">
-            <h2>Sonstiges</h2>
-            <p>Weitere interessante Informationen, die du wissen solltest...</p>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Alle Rechte vorbehalten.</p>
-    </footer>
 </body>
 </html>
